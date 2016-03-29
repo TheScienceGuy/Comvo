@@ -57,13 +57,30 @@ h2{
     font-size: 200%;
     text-align: center;
     padding-bottom: 20px;
-    margin: 0 50px 30px 50px;
-    border-bottom: 2px solid #d35400;
+}
+
+h2:after{                               /*make something appear after h2*/
+    display:block;
+    height: 2px;
+    background-color: #d35400;
+    content: " ";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 h3{
     color:#a2a2a2;
     font-size: 150%;
+}
+
+.under {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+p{
+    padding: 10px;
 }
 
 /*-----------------------------*/
@@ -123,11 +140,16 @@ header {
 /*-----------------------------*/
 /*Listen*/
 /*-----------------------------*/
-
-.listen{
-    height: 100vh;
+.step{
+    font-size: 130%;
+    padding-bottom: 10px;
 }
-.box{
-    border: 1px solid #000;
+
+.long{
+    word-spacing: 1px;
+}
+
+.shade-box{
+    background-color: #e0e0e0;
 }
 
