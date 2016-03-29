@@ -1,5 +1,6 @@
 /*-----------------------------*/
 /*Basic Setup*/
+/*color - #d35400*/
 /*-----------------------------*/
 *{
     margin:0;
@@ -42,3 +43,91 @@ body {
 section {
     padding: 80px 0px;                  /*white space*/
 }
+
+/*-----------------------------*/
+/*Headings*/
+/*-----------------------------*/
+h1{
+    color: #fff;
+    font-size: 300%;
+    margin: 0;
+}
+
+h2{
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 50px 30px 50px;
+    border-bottom: 2px solid #d35400;
+}
+
+h3{
+    color:#a2a2a2;
+    font-size: 150%;
+}
+
+/*-----------------------------*/
+/*Nav*/
+/*-----------------------------*/
+nav{
+    padding: 20px;
+}
+
+.main-nav {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    font-size: 80%;
+}
+
+.main-nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    border-bottom: 2px solid #d35400;
+    color: #d35400;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+.logo {
+    height: 50px;
+    transition: background-color 0.2s;
+}
+
+/*-----------------------------*/
+/*Header*/
+/*-----------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(46, 19, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/arena.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main_text {
+    margin-top: 40vh;
+    transform: translate(15px);
+}
+
+/*-----------------------------*/
+/*Listen*/
+/*-----------------------------*/
+
+.listen{
+    height: 100vh;
+}
+.box{
+    border: 1px solid #000;
+}
+
